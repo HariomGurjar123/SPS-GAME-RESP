@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(8, 8, 17);
+    color: white;
+    font-family: sans-serif;
+    overflow-x: hidden;
+  
+  }
+  .main h1 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+   
+  
+  #mode
+  {
+      background-color:rgba(218, 161, 85, 0.905);
+      color: black;
+      margin: 10px;
+      padding: 6px;
+      font-weight: 600;
+      border-radius: 15px;
+      
+  }
+  #mode:hover{
+      transition: all .8s ease;
+      background: #000;
+      color: white;
+      box-shadow:6px 3px 22px rgb(72, 56, 89);
+  }
+  
+  .dark
+  {
+      background-color: black;
+      
+  }
+  .light
+  {
+      background-color: #9dcbe7;
+      color: black;
+  }
+  
+  
+  .choices {
+    gap: 6%;
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 50px;
+  }
+  .choice {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+  }
+  img:hover {
+      border: 4px solid rgba(203, 242, 145, 0.854);
+      box-shadow:1px 1px 6px rgb(181, 112, 112);
+  }
+  
+  .choice img {
+    width: 230px;
+    height: 230px;
+    margin-top: 12px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+  }
+  
+  .score-board
+  {
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+      margin-top: 4rem;
+      gap: 5rem;
+  
+  }
+  
+  #user-score,
+  #comp-score
+  {
+    font-size: 4rem;
+    font-weight: 600;
+    color: wheat;
+    
+  }
+  .score p{
+      color: wheat;
+      text-align: center;
+  }
+  
+  .msg-container
+  {   
+      margin-top: 4rem;
+      position: relative;
+      bottom: 20px;
+  }
+  
+  #msg
+  {
+      background-color: #081b31;
+      color: wheat;
+      border-radius: 1rem;
+      display: inline;
+      font-weight: 600;
+      padding: 1rem;
+      font-size: 1.5rem;
+  }
+  #msg:hover
+  {
+      box-shadow:6px 3px 22px rgb(148, 91, 206);
+  }
